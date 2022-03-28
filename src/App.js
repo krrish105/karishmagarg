@@ -5,6 +5,7 @@ import "./style.css";
 import Home from "./Components/Home";
 import Project from "./Components/Project";
 import Contact from "./Components/Contact";
+import ScrollToTop from "./Components/ScrollTop";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <hr />
 
         {/* Main */}
+        <ScrollToTop>
         <main>
           <Routes>
             <Route exact path='/karishmagarg/' element={ <Home /> }></Route>
@@ -25,6 +27,7 @@ function App() {
             <Route exact path='/karishmagarg/contact' element={ <Contact /> }></Route>
           </Routes>
         </main>
+        </ScrollToTop>
         <hr />
 
         {/* Footer */}

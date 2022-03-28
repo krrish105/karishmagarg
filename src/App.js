@@ -5,7 +5,7 @@ import "./style.css";
 import Home from "./Components/Home";
 import Project from "./Components/Project";
 import Contact from "./Components/Contact";
-// import ScrollToTop from "./Components/ScrollTop";
+import ScrollToTop from "./Components/ScrollTop";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export default function App() {
@@ -19,7 +19,7 @@ export default function App() {
         <hr />
 
         {/* Main */}
-        {/* <ScrollToTop> */}
+        <ScrollToTop>
           <main>
             <Routes>
               <Route exact path='/karishmagarg/' element={ <Home /> }></Route>
@@ -27,7 +27,7 @@ export default function App() {
               <Route exact path='/karishmagarg/contact' element={ <Contact /> }></Route>
             </Routes>
           </main>
-        {/* </ScrollToTop> */}
+        </ScrollToTop>
         <hr />
 
         {/* Footer */}

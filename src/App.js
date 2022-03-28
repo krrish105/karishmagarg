@@ -20,13 +20,13 @@ export default function App() {
 
         {/* Main */}
         <ScrollToTop>
-        <main>
-          <Routes>
-            <Route exact path='/karishmagarg/' element={ <Home /> }></Route>
-            <Route exact path='/karishmagarg/project' element={ <Project /> }></Route>
-            <Route exact path='/karishmagarg/contact' element={ <Contact /> }></Route>
-          </Routes>
-        </main>
+          <main>
+            <Routes>
+              <Route exact path='/karishmagarg/' element={ <Home /> }></Route>
+              <Route exact path='/karishmagarg/project' element={ <Project /> }></Route>
+              <Route exact path='/karishmagarg/contact' element={ <Contact /> }></Route>
+            </Routes>
+          </main>
         </ScrollToTop>
         <hr />
 

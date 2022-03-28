@@ -8,7 +8,7 @@ import Contact from "./Components/Contact";
 import ScrollToTop from "./Components/ScrollTop";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+export default function App() {
   return (
     <Router>
       <div className="App">
@@ -36,5 +36,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;

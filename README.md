@@ -11,6 +11,7 @@ This is the portfolio website of Karishma Garg (That's Me!), designed and coded 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -46,6 +47,6 @@ All the projects and information regarding me is available on this website.
 - LinkedIn - [Karishma Garg](https://www.linkedin.com/in/karishma-garg-)
 - CodePen - [Krrish105](https://codepen.io/krrish105)
 
-<!-- ## Acknowledgments
+## Acknowledgments
 
-- [Charchit garg](https://www.linkedin.com/in/charchitgarg27/) -->
+- [Silvia](https://github.com/silviapio) - Thank you for helping me build the Contact Form. 

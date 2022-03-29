@@ -280,17 +280,21 @@ footer{
     background: #f8f6f6;
     box-shadow:  0px 2px 10px 3px #a1a1a1,
                  -5px -5px 10px #ffffff;
+    transform: scale(1);
 }
 .project-link a{
     padding: 10px 16px;
 }
 .project-link:hover{
-    transform: scale(1.01);
+    transform: scale(1.015);
 }
 .project-card img{
     border-radius: 10px 10px 0 0; 
     width: 100%;
     border: 1px solid gray;
+}
+.project-card:hover{
+    transform: scale(1.005);
 }
 .project-text{
     padding: 10px 30px 35px;

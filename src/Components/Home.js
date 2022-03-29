@@ -38,6 +38,7 @@ export default function Home(){
                         </p>
                     </section>
 
+                    {/* Skills */}
                     <div className="skills-container col-6">
                         <div className="skill-col">
                             <img src="images/html.svg" alt="" />

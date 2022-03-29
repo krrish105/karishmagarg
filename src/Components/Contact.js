@@ -171,7 +171,7 @@ export default function Contact(){
                     name = "subject" 
                     id="subject" 
                     value = {formData.subject} 
-                    placeholder="Subject" 
+                    placeholder="e.g: Regarding a job." 
                     onBlur={(e) => handleBlur(e)}
                     onChange = {(e) => handleChange(e)} />
                 <span className="error">{error.subject}</span>
@@ -181,6 +181,7 @@ export default function Contact(){
                 <textarea 
                     id="message" 
                     name = "message" 
+                    placeholder="Enter a message for me."
                     value = {formData.message}
                     onBlur={(e) => handleBlur(e)} 
                     onChange = {(e) => handleChange(e)}></textarea>

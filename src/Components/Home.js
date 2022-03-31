@@ -29,7 +29,7 @@ export default function Home(){
                     <section className="col-6">
                         <h2>About</h2>
                         <p>
-                            Hi, I am Karishma Garg, a self-taught Front-End Developer based in India. 
+                            A Self-taught Front-End Developer based in India. 
                             I believe in building websites to solve problems, help people and that 
                             the power of the web should be accessible to everyone.
                             Motivated, Organized, and a Curious Person.

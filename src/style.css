@@ -9,10 +9,7 @@
 /* Body */
 body{
     color: rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
     background: #f1f0f0;
-    box-shadow: inset 0px 1px 13px 5px #666666,
-                inset -8px -8px 16px #ffffff;
     min-width: 325px;
 }
 a{
@@ -216,7 +213,6 @@ footer{
 }
 .contact-me{
     background-color: white;
-    width: fit-content;
     padding: 12px ;
     border-radius: 8px;
     min-width: 170px;
@@ -226,7 +222,10 @@ footer{
 .contact-me,#send-message{
     border-radius: 5px;
     background: #ffffff;
-    box-shadow:  2px 2px 5px 2px #a1a1a1, -5px -5px 10px #ffffff;
+    box-shadow:  2px 1px 2px 2.5px #b9b8b8, -5px -5px 10px #ffffff;
+}
+.project-card .contact-me{
+    box-shadow:  2px 1px 2px 1px #b9b8b8, -5px -5px 10px #ffffff;
 }
 .contact-me a{
     color: black;
@@ -278,7 +277,7 @@ footer{
     margin: 0;
     border-radius: 13px;
     background: #f8f6f6;
-    box-shadow:  0px 2px 10px 3px #a1a1a1,
+    box-shadow:  0px 2px 5px 3px #b9b8b8,
                  -5px -5px 10px #ffffff;
     transform: scale(1);
 }

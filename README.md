@@ -11,13 +11,13 @@ This is the portfolio website of Karishma Garg (That's Me!), designed and coded 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgements](#acknowledgements)
 
 ## Overview
 
 ### About
 
-All the projects and information regarding me is available on this website.
+All the projects and information regarding me are available on this website.
 
 ### Links
 
@@ -38,7 +38,7 @@ All the projects and information regarding me is available on this website.
 
 ### What I learned
 
-- I learned how to use validate forms and receive them on your person email using [Emailjs](https://www.emailjs.com/).
+- I learned how to validate forms and receive them via email using [Emailjs](https://www.emailjs.com/).
 
 ## Author
 
@@ -47,6 +47,6 @@ All the projects and information regarding me is available on this website.
 - LinkedIn - [Karishma Garg](https://www.linkedin.com/in/karishma-garg-)
 - CodePen - [Krrish105](https://codepen.io/krrish105)
 
-## Acknowledgments
+## Acknowledgements
 
 - [Silvia](https://github.com/silviapio) - Thank you for helping me build the Contact Form. 

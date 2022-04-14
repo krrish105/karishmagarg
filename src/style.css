@@ -115,15 +115,15 @@ nav{
     background-image: url("../src/images/Hamburger.svg");
 }
 #avatar{
-    background-image: url('../src/images/AvatarMaker.svg');
+    background-image: url('../src/images/studying.svg');
     background-size: 100% 100%;
-    width: 90%;
-    max-width: 300px;
+    width: 100%;
+    max-width: 280px;
     height: 280px;
     margin: 0 auto;
     border-radius: 50%;
     border: 2px solid #b81782;
-    box-shadow: 0 3px 10px 5px #c72c93;
+    box-shadow: 0 3px 10px 3px #c72c93;
     transform: scale(1);
 }
 #avatar:hover{
@@ -501,9 +501,9 @@ textarea{
         grid-column-start: 8;
         grid-column-end: 13;
         width: 350px;
-        height: 380px;
+        height: 350px;
         max-width: 350px;
-        max-height: 380px;
+        max-height: 350px;
     }
     header .social-links{
        margin: 0;
@@ -607,10 +607,10 @@ textarea{
        grid-column-end: 13;
     }
     #avatar{
-        width: 420px;
-        height: 420px;
-        max-width: 420px;
-        max-height: 420px;
+        width: 440px;
+        height: 440px;
+        max-width: 440px;
+        max-height: 440px;
         grid-column-start: 8;
         grid-column-end: 13;
         margin-left: 200px;

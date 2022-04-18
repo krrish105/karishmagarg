@@ -47,7 +47,9 @@ export default function Nav(){
             </ul>
             
             {/* Hamburger */}
-            <div className="hamburger" onClick={show}></div>
+            <div className="hamburger" onClick={show}>
+                <img src="images/hamburger.svg" alt="Hamburger Icon to open navigation menu in mobile" width='30' height='40'/>
+            </div>
 
         </nav>
     )

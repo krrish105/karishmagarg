@@ -19,13 +19,13 @@ export default function Project({home}){
 function ProjectCard({obj, location}){
     return (
         <div className="project-card">
-            <img src={obj.img} alt={obj.name} /> 
+            <img src={obj.img} alt={obj.name}/> 
             <div className="project-text">
                 <h3>
                     {obj.name}
                 </h3>
                 {
-                    !location ?  <p>{obj.desc}</p> : ""
+                    !location &&  <p>{obj.desc}</p>
                 }
                 <div className="project-links">
                     <div className="project-link">

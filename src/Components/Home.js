@@ -4,6 +4,7 @@ import SocialLinks from "./SocialLinks";
 
 // Home Component
 export default function Home(){
+
     return (
         <>  
             {/* header */}
@@ -14,7 +15,9 @@ export default function Home(){
                     <p>Hey there! I’m a Front-End Web Developer based in India, who focuses on writing accessible, clean and efficient code.</p>
                 </div>
 
-                <div id="avatar" className="col-6"></div>
+                <div id="avatar" className="col-6">
+                    <img src= 'images/studying.svg' alt=""/>
+                </div>
 
                 <SocialLinks classes="social-links col-12"/>
 

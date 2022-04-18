@@ -110,21 +110,19 @@ nav{
     grid-column-start: 12;
     grid-column-end: 13;
 	cursor: pointer;
-    height: 38px;
-    width: 45px;
-    background-image: url("../src/images/Hamburger.svg");
 }
 #avatar{
-    background-image: url('../src/images/studying.svg');
-    background-size: 100% 100%;
+    margin: 0 auto;
+    border: 2px solid #b81782;
+    box-shadow: 0 0 10px 4px #c72c93;
+    transform: scale(1);
+    border-radius: 50%;
     width: 100%;
     max-width: 280px;
     height: 280px;
-    margin: 0 auto;
+}
+#avatar img{
     border-radius: 50%;
-    border: 2px solid #b81782;
-    box-shadow: 0 3px 10px 3px #c72c93;
-    transform: scale(1);
 }
 #avatar:hover{
     transform: scale(1.02);
@@ -166,7 +164,6 @@ header .social-links{
     background: radial-gradient(circle, #e4c0d8, white);
     transform: scale(1);
 }
-
 .skill-container{
     display: flex;
 }
@@ -186,12 +183,6 @@ header .social-links{
 }
 .skills{
     text-align: center;
-}
-
-/* ========== Footer ========== */
-.project-container .projects{
-    padding: 0;
-    padding-top: 50px;
 }
 
 /* ========== Footer ========== */
@@ -334,6 +325,10 @@ footer{
 }
 .view-code{
     background-color: #e9e5e5;
+}
+.project-container .projects{
+    padding: 0;
+    padding-top: 50px;
 }
 
 /* =========== Contact =========== */
@@ -502,8 +497,8 @@ textarea{
         grid-column-end: 13;
         width: 350px;
         height: 350px;
-        max-width: 350px;
-        max-height: 350px;
+        max-width: 340px;
+        max-height: 340px;
     }
     header .social-links{
        margin: 0;
@@ -607,13 +602,14 @@ textarea{
        grid-column-end: 13;
     }
     #avatar{
-        width: 440px;
-        height: 440px;
-        max-width: 440px;
-        max-height: 440px;
+        width: 420px;
+        height: 420px;
+        max-width: 420px;
+        max-height: 420px;
         grid-column-start: 8;
         grid-column-end: 13;
         margin-left: 200px;
+        background-color: white;
     }
     .skills-container{
         margin-left: 150px;

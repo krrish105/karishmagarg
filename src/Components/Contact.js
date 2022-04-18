@@ -74,6 +74,7 @@ export default function Contact(){
                     [name]: ""
                 }))
                 setIsError(false);
+                setFormData((prev) => ({...prev, [name]: value}));
             }
         }
 
@@ -120,11 +121,17 @@ export default function Contact(){
 
         if(isError){
             setFormState("There is some Error");
+            console.log("error");
             return;
         }else{
-            emailjs.sendForm('default_service', process.env.REACT_APP_TEMPLATE_ID, formData, process.env.REACT_APP_USER_ID)
+            const form = document.querySelector('form');
+            emailjs.sendForm('default_service', process.env.REACT_APP_TEMPLATE_ID, form, process.env.REACT_APP_USER_ID)
             .then((res) => {
-                setFormState("Mail Received!");
+                setFormState("Mail Received");
+                setTimeout(()=>
+                {
+                    setFormState('');
+                }, 6000)
                 console.log('SUCCESS!');
             }, function(er) {
                 setFormState("There is some Error");

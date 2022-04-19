@@ -121,7 +121,6 @@ export default function Contact(){
 
         if(isError){
             setFormState("There is some Error");
-            console.log("error");
             return;
         }else{
             const form = document.querySelector('form');
@@ -129,13 +128,9 @@ export default function Contact(){
             .then((res) => {
                 setFormState("Mail Received");
                 setTimeout(()=>
-                {
-                    setFormState('');
-                }, 6000)
-                console.log('SUCCESS!');
+                {setFormState('');}, 6000)
             }, function(er) {
                 setFormState("There is some Error");
-                console.log('FAILED...', er);
             });
         }
     }
